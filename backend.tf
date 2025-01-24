@@ -1,8 +1,3 @@
-terraform {
-  backend "azurerm" {
-    resource_group_name  = "DevOps"  # Can be passed via `-backend-config=`"resource_group_name=<resource group name>"` in the `init` command.
-    storage_account_name = "strgtest22102024"                      # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
-    container_name       = "tfstate"                       # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
-    key                  = "prod.terraform.tfstate"        # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2542895c85d8911027081e0c320403b9502eff7382f35771f2fe38feb44d752
+size 662

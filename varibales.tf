@@ -1,33 +1,3 @@
-
-#locals
-/*locals {
-  ResourceGroup = "AssignmentRG"
-  Location = "East US"
-  virtual_network ={
-    name = "AppNetwork"
-    address_prefixex = ["10.1.0.0/16"]
-  }
-
-  subnet_address_prefix = ["10.1.1.0/24", "10.1.2.0/24"]
-  subnets = [
-    {
-    name = "websubnet01"
-    address_prefixes = ["10.1.0.0/17"]
-    },
-    {
-
-        name =  "websubnet02"
-        address_prefixes = ["10.1.128.0/17"]
-    }
-  ]
-
-
-}**/
-
-
-#Working Script
-
-locals {
-  ResourceGroup = "DevOps1"
-  Location = "Central US"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:22fa5462e3e685c93ffbca239784deefa4ab42774981b42a080e9c3ae9f82727
+size 527
